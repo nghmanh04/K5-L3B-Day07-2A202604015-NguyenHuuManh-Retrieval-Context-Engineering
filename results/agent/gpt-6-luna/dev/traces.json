@@ -1,0 +1,224 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "error",
+        "error_type": "ChatEndpointError",
+        "message": "Chat API rate limit requires another wait of about 752879.1s; retry budget is 180s; request_id=req_ebbe78d396dd4e68853206f3b25cadfb; Retry-After=1728; x-ratelimit-limit-requests=50; x-ratelimit-remaining-requests=0; x-ratelimit-reset-requests=23h56m12.969s; x-ratelimit-limit-tokens=100000; x-ratelimit-remaining-tokens=70953; x-ratelimit-reset-tokens=209h7m58.569s."
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "u-dev-01",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "u-dev-02",
+    "split": "dev",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  }
+]

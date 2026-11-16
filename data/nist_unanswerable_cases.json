@@ -1,0 +1,34 @@
+[
+  {
+    "id": "u-dev-01",
+    "split": "dev",
+    "question": "What monetary fine does NIST AI RMF 1.0 impose on organizations that choose not to adopt it?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "AI RMF 1.0 is voluntary and the source does not specify a fine for non-adoption."
+  },
+  {
+    "id": "u-dev-02",
+    "split": "dev",
+    "question": "What minimum pass score must an AI system achieve to receive NIST AI RMF 1.0 certification?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The source describes outcome-focused guidance, not a certification procedure or pass score."
+  },
+  {
+    "id": "u-test-01",
+    "split": "test",
+    "question": "By what legally required date must every private-sector AI developer implement all four AI RMF functions?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "NIST states that organizations are not required to use the voluntary framework; the source sets no universal compliance deadline."
+  },
+  {
+    "id": "u-test-02",
+    "split": "test",
+    "question": "What fixed dollar amount does NIST AI RMF 1.0 require an organization to budget for managing AI risk?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "MANAGE 2.1 asks organizations to account for required resources but the source specifies no fixed dollar budget."
+  }
+]

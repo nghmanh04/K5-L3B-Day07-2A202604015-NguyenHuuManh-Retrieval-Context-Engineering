@@ -1,0 +1,28 @@
+{
+    "split":  "dev",
+    "strategy":  "C",
+    "retrieval":  "hybrid_rrf",
+    "chat_model":  "gpt-6-luna",
+    "chat_base_url":  "https://api.openai.com/v1",
+    "top_k":  3,
+    "context_budget_chars":  1200,
+    "max_searches":  4,
+    "request_timeout_seconds":  25.0,
+    "case_count":  17,
+    "run_status":  "partial",
+    "status_counts":  {
+                          "answered":  2,
+                          "abstain":  2,
+                          "error":  1,
+                          "pending":  12
+                      },
+    "resumed":  true,
+    "note":  "Gold answers and evidence were not passed to the agent.",
+    "api_probe":  {
+                      "models_endpoint_http":  200,
+                      "chat_model_tested":  "gpt-4o-mini",
+                      "chat_completion_http":  429,
+                      "error_code":  "credit_balance_exhausted",
+                      "checked_date":  "2026-11-16"
+                  }
+}

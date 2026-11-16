@@ -1,0 +1,31 @@
+{
+  "source_id": "nist-ai-100-1",
+  "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+  "publisher": "National Institute of Standards and Technology",
+  "author": "Elham Tabassi",
+  "version": "NIST AI 100-1, January 2023",
+  "publication_date": "2023-01-26",
+  "source_path_or_url": "https://doi.org/10.6028/NIST.AI.100-1",
+  "download_url": "https://nvlpubs.nist.gov/nistpubs/AI/NIST.AI.100-1.pdf",
+  "license_or_permission": "NIST publications are not subject to copyright in the United States; NIST requests attribution. Verify third-party items separately; this corpus extracts text only.",
+  "rights_reference": "https://csrc.nist.gov/Projects/Risk-Management/faqs",
+  "accessed_at": "2026-11-14",
+  "content_page_count": 34,
+  "printed_page_offset": 5,
+  "pdf_physical_content_pages": [6, 39],
+  "content_unit_rule": "Use printed pages 1-34 of the frozen NIST AI 100-1 PDF. Exclude cover, title, disclaimer, contents, and appendices. Printed page equals physical PDF page minus 5.",
+  "section_ranges": [
+    {"section": "executive_summary", "printed_pages": [1, 3]},
+    {"section": "framing_risk", "printed_pages": [4, 8]},
+    {"section": "audience", "printed_pages": [9, 11]},
+    {"section": "trustworthiness", "printed_pages": [12, 18]},
+    {"section": "effectiveness", "printed_pages": [19, 19]},
+    {"section": "core_overview", "printed_pages": [20, 20]},
+    {"section": "govern", "printed_pages": [21, 23]},
+    {"section": "map", "printed_pages": [24, 27]},
+    {"section": "measure", "printed_pages": [28, 30]},
+    {"section": "manage", "printed_pages": [31, 32]},
+    {"section": "profiles", "printed_pages": [33, 34]}
+  ],
+  "attribution": "Tabassi, E. (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0). NIST AI 100-1. https://doi.org/10.6028/NIST.AI.100-1"
+}

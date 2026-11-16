@@ -1,0 +1,617 @@
+{
+  "split": "test",
+  "corpus_source": "Day 6 PostgreSQL/pgvector strategy C",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "chunk_count": 122,
+  "answerable_question_count": 5,
+  "selected_config": "hybrid_top3_context1200",
+  "configurations": {
+    "hybrid_top3_context1200": {
+      "n": 5,
+      "hit1": {
+        "n": 3,
+        "N": 5,
+        "rate": 0.6
+      },
+      "evidence_hit3": {
+        "n": 3,
+        "N": 5,
+        "rate": 0.6
+      },
+      "context_evidence_rate": {
+        "n": 3,
+        "N": 5,
+        "rate": 0.6
+      },
+      "mean_context_chars": 831.8,
+      "mean_retrieval_ms": 72.80875999713317,
+      "traces": [
+        {
+          "query_id": "q16",
+          "question": "With the MEASURE section filter, which kinds of methods can the function employ?",
+          "strategy": "hybrid_rrf",
+          "top_k": 3,
+          "gold": [
+            {
+              "source_id": "nist-ai-100-1",
+              "page": 28,
+              "evidence": "quantitative, qualitative, or mixed-method tools"
+            }
+          ],
+          "results": [
+            {
+              "id": "4936fa60d01b436c64f4dc1c",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 29,
+              "text": "NIST AI 100-1 AI RMF 1.0\nPractices related to measuring AI risks are described in the NIST AI RMF Playbook. Table\n3 lists the MEASURE function’s categories and subcategories.\nTable 3: Categories and subcategories for the MEASURE function.\nMEASURE 1:\nAppropriate\nmethods and metrics\nare identified and\napplied.\nMEASURE 1.1: Approaches and metrics for measurement of AI\nrisks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks\nor trustworthiness characteristics that will not – or cannot – be\nmeasured are properly documented.\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness\nof existing controls are regularly assessed and updated, including\nreports of errors and potential impacts on affected communities.",
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "measure",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 29,
+                "chunk_char_count": 788,
+                "chunk_start_char": 0,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 34
+              },
+              "score": 0.01639344262295082,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "lexical": 1
+              },
+              "source_scores": {
+                "lexical": 0.2611120483470763
+              },
+              "evidence_hit": false
+            },
+            {
+              "id": "7e1051b06b29046dd44b308f",
+              "text": "are measured qualitatively or quantitatively and demonstrated\nfor conditions similar to deployment setting(s). Measures are\ndocumented.\nMEASURE 2.4: The functionality and behavior of the AI system and its components – as identified in the MAP function – are\nmonitored when in production.\nMEASURE 2.5: The AI system to be deployed is demonstrated\nto be valid and reliable. Limitations of the generalizability beyond the conditions under which the technology was developed\nare documented.\nCategories Subcategories\nContinued on next page\nPage 29",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 29,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "measure",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 29,
+                "chunk_char_count": 542,
+                "chunk_start_char": 1582,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 34
+              },
+              "score": 0.01639344262295082,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 1
+              },
+              "source_scores": {
+                "dense": 0.508439628760882
+              },
+              "evidence_hit": false
+            },
+            {
+              "id": "2eaf7e5b7a9d3ef0afcd3806",
+              "text": "mitigation, or removal of the system from design, development, production, or use, as well\nas a range of compensating, detective, deterrent, directive, and recovery controls.\nAfter completing the MEASURE function, objective, repeatable, or scalable test, evaluation,\nverification, and validation (TEVV) processes including metrics, methods, and methodologies are in place, followed, and documented. Metrics and measurement methodologies\nshould adhere to scientific, legal, and ethical norms and be carried out in an open and transparent process. New types of measurement, qualitative and quantitative, may need to be\ndeveloped. The degree to which each measurement type provides unique and meaningful",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 28,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "measure",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 28,
+                "chunk_char_count": 700,
+                "chunk_start_char": 1526,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 33
+              },
+              "score": 0.016129032258064516,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 2
+              },
+              "source_scores": {
+                "dense": 0.4746590600027343
+              },
+              "evidence_hit": false
+            }
+          ],
+          "context": "[4936fa60d01b436c64f4dc1c | https://doi.org/10.6028/NIST.AI.100-1 | page 29]\nNIST AI 100-1 AI RMF 1.0\nPractices related to measuring AI risks are described in the NIST AI RMF Playbook. Table\n3 lists the MEASURE function’s categories and subcategories.\nTable 3: Categories and subcategories for the MEASURE function.\nMEASURE 1:\nAppropriate\nmethods and metrics\nare identified and\napplied.\nMEASURE 1.1: Approaches and metrics for measurement of AI\nrisks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks\nor trustworthiness characteristics that will not – or cannot – be\nmeasured are properly documented.\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness\nof existing controls are regularly assessed and updated, including\nreports of errors and potential impacts on affected communities.",
+          "context_ids": [
+            "4936fa60d01b436c64f4dc1c"
+          ],
+          "context_chars": 865,
+          "elapsed_ms": 194.96789999539033,
+          "hit1": false,
+          "evidence_hit3": false,
+          "context_evidence_hit": false
+        },
+        {
+          "query_id": "q17",
+          "question": "With the MEASURE section filter, what should user feedback processes allow people to do?",
+          "strategy": "hybrid_rrf",
+          "top_k": 3,
+          "gold": [
+            {
+              "source_id": "nist-ai-100-1",
+              "page": 31,
+              "evidence": "report problems and appeal system outcomes"
+            }
+          ],
+          "results": [
+            {
+              "id": "2aa0323df8b13440e1c4ee9b",
+              "text": "NIST AI 100-1 AI RMF 1.0\nTable 3: Categories and subcategories for the MEASURE function. (Continued)\nMEASURE 3.3: Feedback processes for end users and impacted\ncommunities to report problems and appeal system outcomes are\nestablished and integrated into AI system evaluation metrics.\nMEASURE 4:\nFeedback about\nefficacy of\nmeasurement is\ngathered and\nassessed.\nMEASURE 4.1: Measurement approaches for identifying AI risks\nare connected to deployment context(s) and informed through\nconsultation with domain experts and other end users. Approaches are documented.\nMEASURE 4.2: Measurement results regarding AI system trustworthiness in deployment context(s) and across the AI lifecycle",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 31,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "measure",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 31,
+                "chunk_char_count": 683,
+                "chunk_start_char": 0,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 36
+              },
+              "score": 0.03278688524590164,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 1,
+                "lexical": 1
+              },
+              "source_scores": {
+                "dense": 0.5603020453273041,
+                "lexical": 0.18253977230352178
+              },
+              "evidence_hit": true
+            },
+            {
+              "id": "6944f2bc505947302c0c8624",
+              "text": "MEASURE 1.3: Internal experts who did not serve as front-line\ndevelopers for the system and/or independent assessors are involved in regular assessments and updates. Domain experts,\nusers, AI actors external to the team that developed or deployed\nthe AI system, and affected communities are consulted in support\nof assessments as necessary per organizational risk tolerance.\nMEASURE 2: AI\nsystems are\nevaluated for\ntrustworthy\ncharacteristics.\nMEASURE 2.1: Test sets, metrics, and details about the tools used\nduring TEVV are documented.\nMEASURE 2.2: Evaluations involving human subjects meet applicable requirements (including human subject protection) and\nare representative of the relevant population.\nMEASURE 2.3: AI system performance or assurance criteria",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 29,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "measure",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 29,
+                "chunk_char_count": 761,
+                "chunk_start_char": 805,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 34
+              },
+              "score": 0.016129032258064516,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 2
+              },
+              "source_scores": {
+                "dense": 0.48505961984040713
+              },
+              "evidence_hit": false
+            },
+            {
+              "id": "faad5be4637278e8849c47af",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 30,
+              "text": "MEASURE 2.9: The AI model is explained, validated, and documented, and AI system output is interpreted within its context –\nas identified in the MAP function – to inform responsible use and\ngovernance.\nMEASURE 2.10: Privacy risk of the AI system – as identified in\nthe MAP function – is examined and documented.\nMEASURE 2.11: Fairness and bias – as identified in the MAP\nfunction – are evaluated and results are documented.\nMEASURE 2.12: Environmental impact and sustainability of AI\nmodel training and management activities – as identified in the\nMAP function – are assessed and documented.\nMEASURE 2.13: Effectiveness of the employed TEVV metrics and processes in the MEASURE function are evaluated and\ndocumented.\nMEASURE 3:\nMechanisms for\ntracking identified\nAI risks over time\nare in place.",
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "measure",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 30,
+                "chunk_char_count": 795,
+                "chunk_start_char": 792,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 35
+              },
+              "score": 0.016129032258064516,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "lexical": 2
+              },
+              "source_scores": {
+                "lexical": 0.11604484562960163
+              },
+              "evidence_hit": false
+            }
+          ],
+          "context": "[2aa0323df8b13440e1c4ee9b | https://doi.org/10.6028/NIST.AI.100-1 | page 31]\nNIST AI 100-1 AI RMF 1.0\nTable 3: Categories and subcategories for the MEASURE function. (Continued)\nMEASURE 3.3: Feedback processes for end users and impacted\ncommunities to report problems and appeal system outcomes are\nestablished and integrated into AI system evaluation metrics.\nMEASURE 4:\nFeedback about\nefficacy of\nmeasurement is\ngathered and\nassessed.\nMEASURE 4.1: Measurement approaches for identifying AI risks\nare connected to deployment context(s) and informed through\nconsultation with domain experts and other end users. Approaches are documented.\nMEASURE 4.2: Measurement results regarding AI system trustworthiness in deployment context(s) and across the AI lifecycle",
+          "context_ids": [
+            "2aa0323df8b13440e1c4ee9b"
+          ],
+          "context_chars": 760,
+          "elapsed_ms": 49.22929999884218,
+          "hit1": true,
+          "evidence_hit3": true,
+          "context_evidence_hit": true
+        },
+        {
+          "query_id": "q18",
+          "question": "With the MANAGE section filter, what does risk treatment plan for?",
+          "strategy": "hybrid_rrf",
+          "top_k": 3,
+          "gold": [
+            {
+              "source_id": "nist-ai-100-1",
+              "page": 31,
+              "evidence": "respond to, recover from, and communicate about incidents or events"
+            }
+          ],
+          "results": [
+            {
+              "id": "d91d26425be2fa830be71f19",
+              "text": "NIST AI 100-1 AI RMF 1.0\nTable 4: Categories and subcategories for the MANAGE function. (Continued)\nMANAGE 4: Risk\ntreatments,\nincluding response\nand recovery, and\ncommunication\nplans for the\nidentified and\nmeasured AI risks\nare documented and\nmonitored regularly.\nMANAGE 4.1: Post-deployment AI system monitoring plans\nare implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal\nand override, decommissioning, incident response, recovery, and\nchange management.\nMANAGE 4.2: Measurable activities for continual improvements\nare integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors.\nMANAGE 4.3: Incidents and errors are communicated to relevant",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 33,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "manage",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 33,
+                "chunk_char_count": 770,
+                "chunk_start_char": 0,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 38
+              },
+              "score": 0.03200204813108039,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 3,
+                "lexical": 2
+              },
+              "source_scores": {
+                "dense": 0.5396400046777758,
+                "lexical": 0.10721623492052705
+              },
+              "evidence_hit": false
+            },
+            {
+              "id": "461b97a33954a791456b0574",
+              "text": "MANAGE 2.3: Procedures are followed to respond to and recover\nfrom a previously unknown risk when it is identified.\nMANAGE 2.4: Mechanisms are in place and applied, and responsibilities are assigned and understood, to supersede, disengage, or\ndeactivate AI systems that demonstrate performance or outcomes\ninconsistent with intended use.\nMANAGE 3: AI\nrisks and benefits\nfrom third-party\nentities are\nmanaged.\nMANAGE 3.1: AI risks and benefits from third-party resources\nare regularly monitored, and risk controls are applied and\ndocumented.\nMANAGE 3.2: Pre-trained models which are used for development are monitored as part of AI system regular monitoring and\nmaintenance.\nCategories Subcategories\nContinued on next page\nPage 32",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 32,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "manage",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 32,
+                "chunk_char_count": 729,
+                "chunk_start_char": 1567,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 37
+              },
+              "score": 0.01639344262295082,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 1
+              },
+              "source_scores": {
+                "dense": 0.5960916166196368
+              },
+              "evidence_hit": false
+            },
+            {
+              "id": "ac7065c8c34e6b21f3330088",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 32,
+              "text": "NIST AI 100-1 AI RMF 1.0\nPractices related to managing AI risks are described in the NIST AI RMF Playbook. Table\n4 lists the MANAGE function’s categories and subcategories.\nTable 4: Categories and subcategories for the MANAGE function.\nMANAGE 1: AI\nrisks based on\nassessments and\nother analytical\noutput from the\nMAP and MEASURE\nfunctions are\nprioritized,\nresponded to, and\nmanaged.\nMANAGE 1.1: A determination is made as to whether the AI\nsystem achieves its intended purposes and stated objectives and\nwhether its development or deployment should proceed.\nMANAGE 1.2: Treatment of documented AI risks is prioritized\nbased on impact, likelihood, and available resources or methods.\nMANAGE 1.3: Responses to the AI risks deemed high priority, as",
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "manage",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 32,
+                "chunk_char_count": 745,
+                "chunk_start_char": 0,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 37
+              },
+              "score": 0.01639344262295082,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "lexical": 1
+              },
+              "source_scores": {
+                "lexical": 0.1530963820989605
+              },
+              "evidence_hit": false
+            }
+          ],
+          "context": "[d91d26425be2fa830be71f19 | https://doi.org/10.6028/NIST.AI.100-1 | page 33]\nNIST AI 100-1 AI RMF 1.0\nTable 4: Categories and subcategories for the MANAGE function. (Continued)\nMANAGE 4: Risk\ntreatments,\nincluding response\nand recovery, and\ncommunication\nplans for the\nidentified and\nmeasured AI risks\nare documented and\nmonitored regularly.\nMANAGE 4.1: Post-deployment AI system monitoring plans\nare implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal\nand override, decommissioning, incident response, recovery, and\nchange management.\nMANAGE 4.2: Measurable activities for continual improvements\nare integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors.\nMANAGE 4.3: Incidents and errors are communicated to relevant",
+          "context_ids": [
+            "d91d26425be2fa830be71f19"
+          ],
+          "context_chars": 847,
+          "elapsed_ms": 40.05130002042279,
+          "hit1": false,
+          "evidence_hit3": false,
+          "context_evidence_hit": false
+        },
+        {
+          "query_id": "q19",
+          "question": "With the MANAGE section filter, which activities belong in post-deployment monitoring plans?",
+          "strategy": "hybrid_rrf",
+          "top_k": 3,
+          "gold": [
+            {
+              "source_id": "nist-ai-100-1",
+              "page": 33,
+              "evidence": "appeal and override, decommissioning, incident response, recovery"
+            }
+          ],
+          "results": [
+            {
+              "id": "d91d26425be2fa830be71f19",
+              "text": "NIST AI 100-1 AI RMF 1.0\nTable 4: Categories and subcategories for the MANAGE function. (Continued)\nMANAGE 4: Risk\ntreatments,\nincluding response\nand recovery, and\ncommunication\nplans for the\nidentified and\nmeasured AI risks\nare documented and\nmonitored regularly.\nMANAGE 4.1: Post-deployment AI system monitoring plans\nare implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal\nand override, decommissioning, incident response, recovery, and\nchange management.\nMANAGE 4.2: Measurable activities for continual improvements\nare integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors.\nMANAGE 4.3: Incidents and errors are communicated to relevant",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 33,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "manage",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 33,
+                "chunk_char_count": 770,
+                "chunk_start_char": 0,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 38
+              },
+              "score": 0.03252247488101534,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 2,
+                "lexical": 1
+              },
+              "source_scores": {
+                "dense": 0.5351899266242981,
+                "lexical": 0.27712128644095346
+              },
+              "evidence_hit": true
+            },
+            {
+              "id": "461b97a33954a791456b0574",
+              "text": "MANAGE 2.3: Procedures are followed to respond to and recover\nfrom a previously unknown risk when it is identified.\nMANAGE 2.4: Mechanisms are in place and applied, and responsibilities are assigned and understood, to supersede, disengage, or\ndeactivate AI systems that demonstrate performance or outcomes\ninconsistent with intended use.\nMANAGE 3: AI\nrisks and benefits\nfrom third-party\nentities are\nmanaged.\nMANAGE 3.1: AI risks and benefits from third-party resources\nare regularly monitored, and risk controls are applied and\ndocumented.\nMANAGE 3.2: Pre-trained models which are used for development are monitored as part of AI system regular monitoring and\nmaintenance.\nCategories Subcategories\nContinued on next page\nPage 32",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 32,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "manage",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 32,
+                "chunk_char_count": 729,
+                "chunk_start_char": 1567,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 37
+              },
+              "score": 0.01639344262295082,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 1
+              },
+              "source_scores": {
+                "dense": 0.5650005340576172
+              },
+              "evidence_hit": false
+            },
+            {
+              "id": "baa57309aa0500363229ffed",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 31,
+              "text": "– established in GOVERN and carried out in MAP – is utilized in this function to decrease\nthe likelihood of system failures and negative impacts. Systematic documentation practices\nestablished in GOVERN and utilized in MAP and MEASURE bolster AI risk management\nefforts and increase transparency and accountability. Processes for assessing emergent risks\nare in place, along with mechanisms for continual improvement.\nAfter completing the MANAGE function, plans for prioritizing risk and regular monitoring\nand improvement will be in place. Framework users will have enhanced capacity to manage the risks of deployed AI systems and to allocate risk management resources based on\nassessed and prioritized risks. It is incumbent on Framework users to continue to apply",
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "manage",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 31,
+                "chunk_char_count": 766,
+                "chunk_start_char": 1490,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 36
+              },
+              "score": 0.016129032258064516,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "lexical": 2
+              },
+              "source_scores": {
+                "lexical": 0.15449287228255384
+              },
+              "evidence_hit": false
+            }
+          ],
+          "context": "[d91d26425be2fa830be71f19 | https://doi.org/10.6028/NIST.AI.100-1 | page 33]\nNIST AI 100-1 AI RMF 1.0\nTable 4: Categories and subcategories for the MANAGE function. (Continued)\nMANAGE 4: Risk\ntreatments,\nincluding response\nand recovery, and\ncommunication\nplans for the\nidentified and\nmeasured AI risks\nare documented and\nmonitored regularly.\nMANAGE 4.1: Post-deployment AI system monitoring plans\nare implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal\nand override, decommissioning, incident response, recovery, and\nchange management.\nMANAGE 4.2: Measurable activities for continual improvements\nare integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors.\nMANAGE 4.3: Incidents and errors are communicated to relevant",
+          "context_ids": [
+            "d91d26425be2fa830be71f19"
+          ],
+          "context_chars": 847,
+          "elapsed_ms": 34.9448999913875,
+          "hit1": true,
+          "evidence_hit3": true,
+          "context_evidence_hit": true
+        },
+        {
+          "query_id": "q20",
+          "question": "How does a current AI RMF profile differ from a target profile?",
+          "strategy": "hybrid_rrf",
+          "top_k": 3,
+          "gold": [
+            {
+              "source_id": "nist-ai-100-1",
+              "page": 33,
+              "evidence": "current state or the desired, target state"
+            }
+          ],
+          "results": [
+            {
+              "id": "36d3039736a6b6af53223178",
+              "text": "AI risk that is well-aligned with their goals, considers legal/regulatory requirements and\nbest practices, and reflects risk management priorities.\nAI RMF temporal profiles are descriptions of either the current state or the desired, target\nstate of specific AI risk management activities within a given sector, industry, organization,\nor application context. An AI RMF Current Profile indicates how AI is currently being\nmanaged and the related risks in terms of current outcomes. A Target Profile indicates the\noutcomes needed to achieve the desired or target AI risk management goals.\nComparing Current and Target Profiles likely reveals gaps to be addressed to meet AI risk\nmanagement objectives. Action plans can be developed to address these gaps to fulfill",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 33,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "profiles",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 33,
+                "chunk_char_count": 763,
+                "chunk_start_char": 1533,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 38
+              },
+              "score": 0.03278688524590164,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 1,
+                "lexical": 1
+              },
+              "source_scores": {
+                "dense": 0.7812116974953326,
+                "lexical": 0.44963937721906655
+              },
+              "evidence_hit": true
+            },
+            {
+              "id": "c62bdd8c3f8a6a0350b2f967",
+              "text": "AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and errors are\nfollowed and documented.\nCategories Subcategories\n6. AI RMF Profiles\nAI RMF use-case profiles are implementations of the AI RMF functions, categories, and\nsubcategories for a specific setting or application based on the requirements, risk tolerance,\nand resources of the Framework user: for example, an AI RMF hiring profile or an AI\nRMF fair housing profile. Profiles may illustrate and offer insights into how risk can be\nmanaged at various stages of the AI lifecycle or in specific sector, technology, or end-use\napplications. AI RMF profiles assist organizations in deciding how they might best manage",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 33,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "profiles",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 33,
+                "chunk_char_count": 732,
+                "chunk_start_char": 790,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 38
+              },
+              "score": 0.03200204813108039,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 3,
+                "lexical": 2
+              },
+              "source_scores": {
+                "dense": 0.6809248924255371,
+                "lexical": 0.2488399875649205
+              },
+              "evidence_hit": false
+            },
+            {
+              "id": "47fad14b6ab6d3a81220feb4",
+              "text": "NIST AI 100-1 AI RMF 1.0\nPart 2: Core and Profiles\n5. AI RMF Core\nThe AI RMF Core provides outcomes and actions that enable dialogue, understanding, and\nactivities to manage AI risks and responsibly develop trustworthy AI systems. As illustrated in Figure 5, the Core is composed of four functions: GOVERN , MAP, MEASURE ,\nand MANAGE . Each of these high-level functions is broken down into categories and subcategories. Categories and subcategories are subdivided into specific actions and outcomes.\nActions do not constitute a checklist, nor are they necessarily an ordered set of steps.\nFig. 5. Functions organize AI risk management activities at their highest level to govern, map,\nmeasure, and manage AI risks. Governance is designed to be a cross-cutting function to inform",
+              "source_id": "nist-ai-100-1",
+              "source": "https://doi.org/10.6028/NIST.AI.100-1",
+              "page": 20,
+              "metadata": {
+                "source": "https://doi.org/10.6028/NIST.AI.100-1",
+                "section": "core_overview",
+                "chunking": "paragraph",
+                "accessed_at": "2026-11-14",
+                "document_id": "nist-ai-100-1",
+                "content_type": "framework",
+                "organization": "National Institute of Standards and Technology",
+                "printed_page": 20,
+                "chunk_char_count": 779,
+                "chunk_start_char": 0,
+                "document_version": "NIST AI 100-1, January 2023",
+                "physical_pdf_page": 25
+              },
+              "score": 0.016129032258064516,
+              "strategy": "hybrid_rrf",
+              "source_ranks": {
+                "dense": 2
+              },
+              "source_scores": {
+                "dense": 0.685055136680603
+              },
+              "evidence_hit": false
+            }
+          ],
+          "context": "[36d3039736a6b6af53223178 | https://doi.org/10.6028/NIST.AI.100-1 | page 33]\nAI risk that is well-aligned with their goals, considers legal/regulatory requirements and\nbest practices, and reflects risk management priorities.\nAI RMF temporal profiles are descriptions of either the current state or the desired, target\nstate of specific AI risk management activities within a given sector, industry, organization,\nor application context. An AI RMF Current Profile indicates how AI is currently being\nmanaged and the related risks in terms of current outcomes. A Target Profile indicates the\noutcomes needed to achieve the desired or target AI risk management goals.\nComparing Current and Target Profiles likely reveals gaps to be addressed to meet AI risk\nmanagement objectives. Action plans can be developed to address these gaps to fulfill",
+          "context_ids": [
+            "36d3039736a6b6af53223178"
+          ],
+          "context_chars": 840,
+          "elapsed_ms": 44.850399979623035,
+          "hit1": true,
+          "evidence_hit3": true,
+          "context_evidence_hit": true
+        }
+      ]
+    }
+  },
+  "hypotheses": {
+    "dense_top5_context800": "More candidates may improve evidence retrieval while context budget stays fixed.",
+    "hybrid_top3_context1200": "More context may preserve retrieved evidence while top-k stays fixed."
+  },
+  "selection_note": "Only the frozen dev-selected configuration was run on test."
+}

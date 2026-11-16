@@ -1,0 +1,94 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "error",
+        "error_type": "ChatEndpointError",
+        "message": "Chat API rate limit persisted after retries (code=rate_limit_exceeded)."
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "u-test-01",
+    "split": "test",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  },
+  {
+    "query_id": "u-test-02",
+    "split": "test",
+    "status": "pending",
+    "answer": "",
+    "citations": [],
+    "events": [
+      {
+        "event": "pending",
+        "message": "Not attempted after provider/transport failure; resume the run later."
+      }
+    ]
+  }
+]

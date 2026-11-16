@@ -1,0 +1,21 @@
+{
+  "split": "dev",
+  "strategy": "C",
+  "retrieval": "hybrid_rrf",
+  "chat_model": "gpt-6-luna",
+  "chat_base_url": "https://api.openai.com/v1",
+  "top_k": 3,
+  "context_budget_chars": 1200,
+  "max_searches": 4,
+  "request_timeout_seconds": 20.0,
+  "case_count": 17,
+  "run_status": "partial",
+  "status_counts": {
+    "answered": 0,
+    "abstain": 0,
+    "error": 1,
+    "pending": 16
+  },
+  "resumed": true,
+  "note": "Gold answers and evidence were not passed to the agent."
+}
